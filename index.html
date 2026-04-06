@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terezinha Oliveira | Cabeleireira Profissional</title>
+  <meta name="description" content="Terezinha Oliveira - Cabeleireira profissional em Campinas/SP. Cortes, tinturas, hidratação, selagem, luzes e muito mais. Agende seu horário!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo">
+        <span class="logo-icon">✦</span>
+        Terezinha Oliveira
+      </a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#inicio" class="nav-link active">Início</a></li>
+        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+        <li><a href="#galeria" class="nav-link">Galeria</a></li>
+        <li><a href="#agendamento" class="nav-link">Agendamento</a></li>
+        <li><a href="#loja" class="nav-link">Loja</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <img src="salon_hero.png" alt="Salão Terezinha Oliveira" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Beleza que Transforma</p>
+      <h1 class="hero-title">Terezinha<br/><em>Oliveira</em></h1>
+      <p class="hero-subtitle">Cabeleireira Profissional · Você merece se sentir linda todos os dias</p>
+      <div class="hero-actions">
+        <a href="#agendamento" class="btn btn-primary" id="hero-agendar">Agendar Horário</a>
+        <a href="#servicos" class="btn btn-outline" id="hero-servicos">Ver Serviços</a>
+      </div>
+      <div class="hero-contact-pill">
+        <span class="wpp-icon">📱</span>
+        <a href="https://wa.me/5519998541459" target="_blank" rel="noopener">(19) 99854-1459</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section class="services" id="servicos">
+    <div class="section-container">
+      <div class="section-header">
+        <p class="section-eyebrow">O que ofereço</p>
+        <h2 class="section-title">Serviços & Valores</h2>
+        <p class="section-desc">Cada atendimento é feito com dedicação e carinho, usando produtos de qualidade para realçar sua beleza.</p>
+      </div>
+
+    </div><!-- /section-container header -->
+
+    <!-- Layout Editorial fora do container para ir full-width -->
+    <div class="services-editorial">
+
+      <!-- Bloco Cortes -->
+      <div class="svc-block">
+        <div class="svc-block-img">
+          <img src="gallery_scissors.png" alt="Corte de cabelo profissional" />
+          <div class="svc-block-label">Cortes</div>
+        </div>
+        <div class="svc-block-list">
+          <h3 class="svc-block-title">Cortes</h3>
+          <p class="svc-block-desc">Modelagem personalizada para cada rosto e estilo, com lavagem e secagem incluídas.</p>
+          <ul class="svc-price-list">
+            <li>
+              <span class="svc-name">Corte c/ Secagem</span>
+              <span class="svc-dots"></span>
+              <span class="svc-price">R$ 50,00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bloco Coloração -->
+      <div class="svc-block reverse">
+        <div class="svc-block-img">
+          <img src="gallery_color.png" alt="Coloração e tintura profissional" />
+          <div class="svc-block-label">Coloração</div>
+        </div>
+        <div class="svc-block-list">
+          <h3 class="svc-block-title">Coloração &amp; Luzes</h3>
+          <p class="svc-block-desc">Tinturas ricas em pigmentos, mechas e luzes que transformam e iluminam seu visual.</p>
+          <ul class="svc-price-list">
+            <li>
+              <span class="svc-name">Tintura c/ Produto</span>
+              <span class="svc-dots"></span>
+              <span class="svc-price">A partir de R$ 90,00</span>
+            </li>
+            <li>
+              <span class="svc-name">Tintura s/ Produto</span>
+              <span class="svc-dots"></span>
+              <span class="svc-price">A partir de R$ 60,00</span>
+            </li>
+            <li>
+              <span class="svc-name">Luzes</span>
+              <span class="svc-dots"></span>
+              <span class="svc-price">A partir de R$ 220,00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bloco Tratamentos -->
+      <div class="svc-block">
+        <div class="svc-block-img">
+          <img src="gallery_balayage.png" alt="Tratamentos capilares hidratação e selagem" />
+          <div class="svc-block-label">Tratamentos</div>
+        </div>
+        <div class="svc-block-list">
+          <h3 class="svc-block-title">Tratamentos &amp; Acabamento</h3>
+          <p class="svc-block-desc">Nutrição profunda, selagem e escovação para fios saudáveis, macios e brilhantes.</p>
+          <ul class="svc-price-list">
+            <li>
+              <span class="svc-name">Escova</span>
+              <span class="svc-dots"></span>
+              <span class="svc-price">A partir de R$ 40,00</span>
+            </li>
+            <li>
+              <span class="svc-name">Hidratação c/ Escova</span>
+              <span class="svc-dots"></span>
+              <span class="svc-price">A partir de R$ 70,00</span>
+            </li>
+            <li>
+              <span class="svc-name">Selagem</span>
+              <span class="svc-dots"></span>
+              <span class="svc-price">A partir de R$ 150,00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div><!-- /services-editorial -->
+
+    <div class="section-container" style="padding-top:0; padding-bottom:60px;">
+      <div class="services-cta">
+        <a href="#agendamento" class="btn btn-primary" id="services-agendar">Como Agendar</a>
+        <a href="https://wa.me/5519998541459?text=Olá%20Terezinha!%20Gostaria%20de%20saber%20mais%20sobre%20os%20seus%20serviços." target="_blank" class="btn btn-ghost" id="services-whatsapp">💬 Consultar via WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERIA ===== -->
+  <section class="gallery" id="galeria">
+    <div class="section-container">
+      <div class="section-header light">
+        <p class="section-eyebrow">Transformações</p>
+        <h2 class="section-title">Galeria de Trabalhos</h2>
+        <p class="section-desc">Cortes, colorações e tratamentos realizados com técnica e cuidado. Cada trabalho, uma história única.</p>
+      </div>
+
+      <div class="gallery-mosaic">
+        <div class="gm-item gm-tall" id="gallery-1">
+          <img src="gallery_curly.png" alt="Cabelo cacheado estilizado" loading="lazy" />
+          <div class="gallery-overlay"><span>Cachos &amp; Ondas</span></div>
+        </div>
+        <div class="gm-item" id="gallery-2">
+          <img src="gallery_color.png" alt="Mechas e coloração com papel laminado" loading="lazy" />
+          <div class="gallery-overlay"><span>Coloração Profissional</span></div>
+        </div>
+        <div class="gm-item" id="gallery-3">
+          <img src="gallery_bob.png" alt="Corte chanel bob curto" loading="lazy" />
+          <div class="gallery-overlay"><span>Corte Bob / Chanel</span></div>
+        </div>
+        <div class="gm-item gm-wide" id="gallery-4">
+          <img src="gallery_blowout_nat.png" alt="Escova progressiva cabelo liso" loading="lazy" />
+          <div class="gallery-overlay"><span>Escova Profissional</span></div>
+        </div>
+        <div class="gm-item" id="gallery-5">
+          <img src="gallery_scissors.png" alt="Corte de cabelo com tesoura" loading="lazy" />
+          <div class="gallery-overlay"><span>Corte &amp; Modelagem</span></div>
+        </div>
+        <div class="gm-item" id="gallery-6">
+          <img src="gallery_balayage.png" alt="Balayage caramelo resultado final" loading="lazy" />
+          <div class="gallery-overlay"><span>Balayage &amp; Luzes</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AGENDAMENTO ===== -->
+  <section class="booking" id="agendamento">
+    <div class="section-container">
+      <div class="section-header">
+        <p class="section-eyebrow">Agende seu horário</p>
+        <h2 class="section-title">Agendamento</h2>
+        <p class="section-desc">O agendamento é feito direto com a Terezinha via WhatsApp. Veja os dias e horários disponíveis e mande uma mensagem!</p>
+      </div>
+
+      <div class="booking-info-layout">
+
+        <!-- Dias e Horários -->
+        <div class="booking-schedule">
+          <h3 class="schedule-title">📅 Dias de Atendimento</h3>
+          <div class="schedule-days">
+            <div class="sched-day open">
+              <span class="sched-day-name">Terça</span>
+              <span class="sched-day-hours">09h às 19h</span>
+            </div>
+            <div class="sched-day open">
+              <span class="sched-day-name">Quarta</span>
+              <span class="sched-day-hours">09h às 19h</span>
+            </div>
+            <div class="sched-day open">
+              <span class="sched-day-name">Quinta</span>
+              <span class="sched-day-hours">09h às 19h</span>
+            </div>
+            <div class="sched-day open">
+              <span class="sched-day-name">Sexta</span>
+              <span class="sched-day-hours">09h às 19h</span>
+            </div>
+            <div class="sched-day open saturday">
+              <span class="sched-day-name">Sábado</span>
+              <span class="sched-day-hours">09h às 17h</span>
+            </div>
+            <div class="sched-day closed">
+              <span class="sched-day-name">Dom</span>
+              <span class="sched-day-hours">Fechado</span>
+            </div>
+            <div class="sched-day closed">
+              <span class="sched-day-name">Seg</span>
+              <span class="sched-day-hours">Fechado</span>
+            </div>
+          </div>
+
+          <div class="schedule-note">
+            <span>ℹ️</span>
+            <p>Os horários estão sujeitos a disponibilidade. Confirme diretamente com a Terezinha antes de se deslocar.</p>
+          </div>
+        </div>
+
+        <!-- CTA Agendamento -->
+        <div class="booking-cta-panel">
+          <div class="booking-cta-content">
+            <p class="booking-cta-eyebrow">Como agendar?</p>
+            <h3 class="booking-cta-title">É simples e rápido!</h3>
+            <ol class="booking-steps">
+              <li>
+                <span class="step-num">1</span>
+                <div>
+                  <strong>Escolha o serviço</strong>
+                  <p>Confira a lista de serviços e valores acima</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-num">2</span>
+                <div>
+                  <strong>Envie uma mensagem</strong>
+                  <p>Mande um WhatsApp com o serviço desejado e o dia preferido</p>
+                </div>
+              </li>
+              <li>
+                <span class="step-num">3</span>
+                <div>
+                  <strong>Confirme com a Terezinha</strong>
+                  <p>Ela confirmará a disponibilidade e seu horário estará garantido!</p>
+                </div>
+              </li>
+            </ol>
+            <a href="https://wa.me/5519998541459?text=Olá%20Terezinha!%20Gostaria%20de%20agendar%20um%20horário.%20Pode%20me%20informar%20a%20disponibilidade?" target="_blank" class="btn btn-wpp full-width" id="booking-wpp-btn">
+              Agendar pelo WhatsApp
+            </a>
+            <p class="booking-pix-note">💳 Pagamento via PIX: <strong>(19) 99854-1459</strong></p>
+          </div>
+        </div>
+
+      </div><!-- /booking-info-layout -->
+    </div>
+  </section>
+
+
+  <!-- ===== LOJA ===== -->
+  <section class="shop" id="loja">
+    <div class="section-container">
+      <div class="section-header light">
+        <p class="section-eyebrow">Produtos Selecionados</p>
+        <h2 class="section-title">Loja de Beleza</h2>
+        <p class="section-desc">Kits cuidadosamente selecionados: perfumes exclusivos, bijuterias delicadas e produtos para cuidado dos fios.</p>
+      </div>
+
+      <div class="shop-grid">
+        <div class="shop-card" id="product-1">
+          <div class="shop-img-wrap">
+            <img src="beauty_products.png" alt="Kit Beleza Premium - Perfumes e acessórios" loading="lazy" />
+            <div class="shop-badge">Destaque</div>
+          </div>
+          <div class="shop-content">
+            <h3>Kit Beleza Premium</h3>
+            <p>Conjunto com perfume exclusivo + acessórios de beleza selecionados</p>
+            <div class="shop-footer">
+              <span class="shop-price">R$ 89,90</span>
+              <a href="https://wa.me/5519998541459?text=Olá%20Terezinha!%20Tenho%20interesse%20no%20Kit%20Beleza%20Premium." target="_blank" class="btn btn-sm btn-primary" id="buy-kit-premium">Pedir Agora</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-card" id="product-2">
+          <div class="shop-img-wrap">
+            <img src="hair_care_kit.png" alt="Kit Tratamento Capilar - Hidratação profissional" loading="lazy" />
+            <div class="shop-badge new">Novo</div>
+          </div>
+          <div class="shop-content">
+            <h3>Kit Tratamento Capilar</h3>
+            <p>Shampoo + Condicionador + Sérum reparador em embalagens premium</p>
+            <div class="shop-footer">
+              <span class="shop-price">R$ 129,90</span>
+              <a href="https://wa.me/5519998541459?text=Olá%20Terezinha!%20Tenho%20interesse%20no%20Kit%20Tratamento%20Capilar." target="_blank" class="btn btn-sm btn-primary" id="buy-kit-capilar">Pedir Agora</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop-card" id="product-3">
+          <div class="shop-img-wrap">
+            <img src="bijoux_jewelry.png" alt="Bijuterias finas - Coleção especial" loading="lazy" />
+          </div>
+          <div class="shop-content">
+            <h3>Coleção Bijuterias</h3>
+            <p>Colares, pulseiras e brincos delicados em ouro, rose gold e prata</p>
+            <div class="shop-footer">
+              <span class="shop-price">A partir de R$ 35,00</span>
+              <a href="https://wa.me/5519998541459?text=Olá%20Terezinha!%20Tenho%20interesse%20nas%20bijuterias." target="_blank" class="btn btn-sm btn-primary" id="buy-bijoux">Ver Peças</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop-note">
+        <span>📦</span>
+        <p>Todos os produtos podem ser retirados no salão ou combinados entrega. Consulte via WhatsApp!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section class="contact" id="contato">
+    <div class="section-container">
+      <div class="section-header">
+        <p class="section-eyebrow">Fale comigo</p>
+        <h2 class="section-title">Contato</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card" id="contact-whatsapp">
+          <div class="contact-icon wpp">📱</div>
+          <h3>WhatsApp</h3>
+          <p>Mande uma mensagem agora mesmo!</p>
+          <a href="https://wa.me/5519998541459" target="_blank" rel="noopener" class="contact-link">(19) 99854-1459</a>
+        </div>
+
+        <div class="contact-card" id="contact-pix">
+          <div class="contact-icon pix">💳</div>
+          <h3>Pagamento via PIX</h3>
+          <p>Chave PIX (celular)</p>
+          <span class="contact-link">(19) 99854-1459</span>
+        </div>
+
+        <div class="contact-card" id="contact-hours">
+          <div class="contact-icon clock">🕐</div>
+          <h3>Horário de Atendimento</h3>
+          <ul class="hours-list">
+            <li><span>Terça a Sexta</span><span>09h – 19h</span></li>
+            <li><span>Sábado</span><span>09h – 17h</span></li>
+            <li class="closed"><span>Domingo e Segunda</span><span>Fechado</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- CTA WhatsApp flutuante contextual -->
+      <div class="contact-cta-banner">
+        <div class="cta-banner-content">
+          <p>Pronta para sua transformação? Fale comigo agora! 💬</p>
+          <a href="https://wa.me/5519998541459?text=Olá%20Terezinha!%20Gostaria%20de%20agendar%20um%20horário." target="_blank" class="btn btn-wpp" id="contact-wpp-btn">
+            Abrir WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="logo-icon">✦</span>
+        <p><strong>Terezinha Oliveira</strong></p>
+        <p class="footer-tagline">Cabeleireira Profissional</p>
+      </div>
+      <div class="footer-links">
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#agendamento">Agendamento</a>
+        <a href="#loja">Loja</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <p class="footer-copy">© 2026 Terezinha Oliveira. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/5519998541459?text=Olá%20Terezinha!%20Vi%20seu%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" class="wpp-float" id="wpp-float-btn" title="Fale comigo no WhatsApp" aria-label="Abrir WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
